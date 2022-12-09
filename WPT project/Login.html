@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>LOGIN</title>
+    <link rel="icon" type="image/x-icon" href="logo5.JPG" />
+    <link rel="stylesheet" href="login1.css" />
+    <link
+      href="https://api.fontshare.com/v2/css?f[]=panchang@400&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header>
+      <div class="hero">
+        <nav>
+          <h2 class="c1">TAP E-BOOKS</h2>
+          <ul>
+            <li><a href="index.html" target="_blank" class="item">Home</a></li>
+            <li>
+              <a href="ContactUs.html" target="_blank" class="item">Contact</a>
+            </li>
+            <li><a href="#aboutus" class="item">About us</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+    <div class="container">
+      <form method="post" class="form-box">
+        <h1 class="c2">LOGIN</h1>
+        <div class="user">
+          <label for="1">
+            <input
+              type="text"
+              required
+              class="input"
+              id="1"
+              placeholder="Username"
+              pattern="[A-Za-z
+              ]{1,20}"
+            /> </label
+          ><br />
+
+          <label for="2">
+            <input
+              type="Password"
+              required
+              class="input"
+              id="2"
+              placeholder="Password"
+              pattern="[a-zA-Z0-9]+"
+              minlength="4"
+              maxlength="15"
+          /></label>
+
+          <div class="pass2"><a href="#">Forgot Password?</a></div>
+
+          <input type="Submit" class="submit-btn" value="SIGN IN" />
+          <br />
+          <div class="signup">
+            Not a member?
+            <a href="Registration.html" target="_blank">Create New Account</a>
+          </div>
+        </div>
+      </form>
+    </div>
+    <footer>
+      <div class="foot">© TAPE-BOOKS.com, Inc. All rights reserved.</div>
+    </footer>
+  </body>
+</html>
